@@ -152,3 +152,36 @@ hr{
 .fa-clock{
     color: #FF4A60;
 }
+
+
+
+
+
+/*---------------
+ Media Quieries  
+ ----------------*/
+
+ /* Mobile Devices */
+ @media only screen and (max-width:668px){
+     .container{
+         margin: 0 auto;
+     }
+        .players{
+            background-color:#ED6B4F ;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .blogs{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .blog{
+            margin-right: 10px;
+        }
+        .courses{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .course{
+            margin-bottom: 30px;
+        }
+ }
